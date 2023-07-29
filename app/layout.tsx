@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.className} text-slate-800 bg-background m-3`}>
+      <body className={`${ubuntu.className} text-slate-900 bg-background p-6`}>
         {children}
       </body>
     </html>
