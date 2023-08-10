@@ -1,7 +1,7 @@
 const Myself = () => {
   return (
-    <div className="mt-20 w-full">
-      <div className="w-3/5 flex flex-col justify-center mx-auto">
+    <div className="mt-8 w-full">
+      <div className="w-4/5 flex flex-col justify-center mx-auto">
         <h1 className="text-4xl font-semibold underline">#Myself</h1>
         <p className="text-xl">
           Hi, I&apos;m Vageesh from India, a programming enthusiast who loves
