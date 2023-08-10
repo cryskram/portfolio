@@ -6,10 +6,10 @@ import Social from "@/components/social";
 export default function Home() {
   return (
     <div className="mt-20 flex">
-      <div>
+      <div className="">
         <Social />
       </div>
-      <div className="flex flex-col gap-12 flex-1 w-full">
+      <div className="flex flex-col gap-12 pl-10 flex-1">
         <Main />
         <Myself />
         <Skills />
