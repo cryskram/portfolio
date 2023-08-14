@@ -35,3 +35,5 @@ export const skillData = {
     "Windows",
   ],
 };
+
+export const projectsData = {};

@@ -1,6 +1,6 @@
 import React from "react";
 import SkillCard from "./cards/skills";
-import { skillData } from "@/lib/skill.data";
+import { skillData } from "@/lib/custom.data";
 
 const Skills = () => {
   return (
