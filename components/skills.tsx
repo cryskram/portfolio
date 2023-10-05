@@ -9,7 +9,7 @@ const Skills = () => {
         <h1 className="title">#Skills</h1>
         <div className="">
           <div className="flex flex-col mt-2">
-            <h1 className="text-2xl">Languages</h1>
+            <h1 className="text-xl text-yellow-200">Languages</h1>
             <div className="flex flex-wrap -ml-3">
               {skillData.languages.map((skill) => (
                 <div key={skill}>
@@ -18,8 +18,8 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col mt-2">
-            <h1 className="text-2xl">Frameworks</h1>
+          <div className="flex flex-col mt-4">
+            <h1 className="text-xl text-yellow-200">Frameworks</h1>
             <div className="flex flex-wrap -ml-3">
               {skillData.frameworks.map((skill) => (
                 <div key={skill}>
@@ -28,8 +28,8 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col mt-2">
-            <h1 className="text-2xl">Databases</h1>
+          <div className="flex flex-col mt-4">
+            <h1 className="text-xl text-yellow-200">Databases</h1>
             <div className="flex flex-wrap -ml-3">
               {skillData.databases.map((skill) => (
                 <div key={skill}>
@@ -38,8 +38,8 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col mt-2">
-            <h1 className="text-2xl">Tools</h1>
+          <div className="flex flex-col mt-4">
+            <h1 className="text-xl text-yellow-200">Tools</h1>
             <div className="flex flex-wrap -ml-3">
               {skillData.tools.map((skill) => (
                 <div key={skill}>
@@ -48,8 +48,8 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col mt-2">
-            <h1 className="text-2xl">Operating System</h1>
+          <div className="flex flex-col mt-4">
+            <h1 className="text-xl text-yellow-200">Operating System</h1>
             <div className="flex flex-wrap -ml-3">
               {skillData.os.map((skill) => (
                 <div key={skill}>

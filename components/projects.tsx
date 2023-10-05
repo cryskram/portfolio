@@ -1,5 +1,6 @@
 import { projectsData } from "@/lib/custom.data";
 import ProjectCard from "./cards/project";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -14,11 +15,21 @@ const Projects = () => {
                 image={project.image}
                 link={project.link}
                 description={project.description}
-                type={project.type}
+                tags={project.tags}
               />
             </div>
           ))}
         </div>
+        <h1 className="mt-6 text-center text-xl">
+          Check out my{" "}
+          <Link
+            className="underline underline-offset-2 text-blue-400"
+            href="https://github.com/cryskram"
+          >
+            Github
+          </Link>{" "}
+          for more projects
+        </h1>
       </div>
     </div>
   );

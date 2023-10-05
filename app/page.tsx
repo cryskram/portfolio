@@ -1,3 +1,4 @@
+import ContactMe from "@/components/contactme";
 import Main from "@/components/main";
 import Myself from "@/components/myself";
 import Projects from "@/components/projects";
@@ -30,6 +31,7 @@ export default function Home() {
         <div className="m-0 md:ml-8">
           <Skills />
           <Projects />
+          <ContactMe />
         </div>
       </div>
     </div>
