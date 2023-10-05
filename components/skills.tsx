@@ -48,6 +48,16 @@ const Skills = () => {
               ))}
             </div>
           </div>
+          <div className="flex flex-col mt-2">
+            <h1 className="text-2xl">Operating System</h1>
+            <div className="flex flex-wrap -ml-3">
+              {skillData.os.map((skill) => (
+                <div key={skill}>
+                  <SkillCard item={skill} />
+                </div>
+              ))}
+            </div>
+          </div>
           {/*<div className="flex items-center gap-4">
             <h1 className="text-2xl">Languages</h1>
             <div className="flex flex-wrap">
