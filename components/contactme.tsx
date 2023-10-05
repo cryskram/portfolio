@@ -2,6 +2,7 @@ import React from "react";
 import Social from "./social";
 import Link from "next/link";
 import { FaDiscord, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 
 const ContactMe = () => {
   return (
@@ -11,9 +12,13 @@ const ContactMe = () => {
           <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-400 font-bold to-white text-center">
             Tell me about your next project
           </h1>
-          <button className="bg-gradient-to-r from-blue-500 to-background px-4 py-2 text-xl rounded-xl mt-6 font-semibold">
-            Get in Touch
-          </button>
+          <Link
+            href="mailto:vageeshgn2005@gmail.com"
+            className="bg-gradient-to-r flex gap-3 items-center from-blue-500 to-background px-5 py-3 text-xl rounded-xl mt-6 font-semibold"
+          >
+            <h1>Get in Touch</h1>
+            <HiMail />
+          </Link>
           <div className="flex gap-4 mt-6 text-3xl">
             <Link href="https://www.instagram.com/gn_vageesh/">
               <FaInstagram />
