@@ -73,7 +73,7 @@ export const projectsData = {
       name: "DiscoGen",
       description: "A Discord Bot generator",
       link: "https://github.com/https://github.com/Discogen/discogen/cyberspider",
-      image: "/projects/discogen.png",
+      image: "/projects/discogenImg.png",
       tags: ["Utility", "Software"],
     },
     {
