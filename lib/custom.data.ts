@@ -29,7 +29,7 @@ export const projectsData = {
     {
       name: "Algorithm Sorting Visualiser",
       description: "A visual representation of sorting algorithms",
-      link: "https://github.com/cryskram/",
+      link: "https://github.com/cryskram/sortingalgo",
       image: "/projects/asv.png",
       tags: ["Website", "Algorithms"],
     },
