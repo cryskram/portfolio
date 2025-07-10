@@ -1,24 +1,16 @@
 export const skillData = {
-  languages: [
-    "JS/TS",
-    "Dart",
-    "Python3",
-    "Java",
-    "C/C++",
-    "HTML5", // not a programming language lol
-    "CSS3",
-  ],
+  languages: ["JS/TS", "Dart", "Python3", "Java", "C/C++"],
   frameworks: [
-    "Nodejs",
-    "Nextjs",
-    "Expressjs",
+    "Node.js",
+    "Next.js",
+    "Express.js",
     "Flutter",
     "Android",
     "TailwindCSS",
     "Prisma",
   ],
   databases: ["PostgreSQL", "SQLite3", "MySQL", "MongoDB"],
-  tools: ["VSCode", "VIM", "Git", "Github", "Nix", "Vercel", "Planetscale"],
+  tools: ["Git/GitHub", "Nix", "Vercel", "Planetscale", "Framer Motion"],
   os: [
     "Linux", // i use arch/nixos btw
     "Windows",
@@ -28,11 +20,39 @@ export const skillData = {
 export const projectsData = {
   data: [
     {
+      name: "ModelCraft",
+      description: "Online Model Training",
+      link: "https://github.com/cryskram/algopred",
+      image: "/projects/modelcraft.png",
+      tags: ["Website", "ML", "Full Stack"],
+    },
+    {
+      name: "Algorithm Sorting Visualiser",
+      description: "A visual representation of sorting algorithms",
+      link: "https://github.com/cryskram/",
+      image: "/projects/asv.png",
+      tags: ["Website", "Algorithms"],
+    },
+    {
+      name: "Attendance Portal",
+      description: "A Simple Attendance Portal for peer learning session demo",
+      link: "https://github.com/cryskram/webdevpeersesh",
+      image: "/projects/attendance.png",
+      tags: ["Website", "Learning", "Full Stack"],
+    },
+    {
       name: "DropConnect",
       description: "A social media website",
       link: "https://github.com/cryskram/dropconnect",
       image: "/projects/dropconnect.png",
       tags: ["Website", "Social Media"],
+    },
+    {
+      name: "Nrittam",
+      description: "Frontend for an AI powered dancing assistant",
+      link: "https://github.com/cryskram/nrittam",
+      image: "/projects/nrittam.jpeg",
+      tags: ["Mobile", "Tutor", "Frontend"],
     },
     {
       name: "Portfolio",
@@ -61,6 +81,13 @@ export const projectsData = {
       link: "https://github.com/cryskram/quizo",
       image: "/projects/quizo.png",
       tags: ["Website", "Game"],
+    },
+    {
+      name: "SPS Day Celebration",
+      description: "A simple frontend website for SPS day celebration",
+      link: "https://github.com/cryskram/spsdaycelebration",
+      image: "/projects/sps.png",
+      tags: ["Website", "Frontend"],
     },
     {
       name: "CyberSpiders",
